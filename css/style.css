@@ -1,0 +1,121 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&family=Open+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+
+  background: #1e1e1e url(../img/fon.png) 0 0 / contain repeat fixed;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  margin: 0 auto;
+  max-width: 810px;
+}
+.header {
+  background: black url(../img/ninefox.png) center/contain no-repeat;
+  border: 1px solid #80808096;
+
+  margin-bottom: 15px;
+}
+.logotip {
+  display: block;
+  max-width: 70px;
+}
+
+.navigation {
+  font-family: "Amatic SC", cursive;
+  font-size: 24px;
+  color: aliceblue;
+  padding: 10px;
+}
+.nav__list {
+  margin-left: 120px;
+}
+
+.nav__item {
+  display: inline;
+  margin-left: 50px;
+}
+.main {
+  background: linear-gradient(45deg, #e6e9f0, #eef1f5);
+}
+.naruto-gif {
+  background: url("../img/XIDW.gif") 178px 247px / 400px auto no-repeat;
+  height: 600px;
+}
+.gif {
+  display: block;
+  margin: 0 auto;
+  border-radius: 35%;
+  opacity: 0.7;
+}
+.top {
+  font-family: "Amatic SC", cursive;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px;
+  text-align: center;
+}
+.number {
+  font-family: "Amatic SC", cursive;
+  color: black;
+  padding: 10px 0 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.number:hover {
+  text-shadow: 10px 1px 20px rgba(32, 222, 235, 0.925);
+}
+.iruka {
+  background: url(../img/iruka.png) 141px 9px / 37px auto no-repeat;
+}
+.kabuto {
+  background: url(../img/kabooto.png) 2px 13px / 38px auto no-repeat;
+}
+.rok-li {
+  background: url(../img/rokk.png) 9px 16px/ 35px auto no-repeat;
+}
+.suske {
+  background: url(../img/pngwing.png) 3px 25px / 35px auto no-repeat;
+}
+.main {
+  border: 5px dotted black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.home-work {
+  padding: 20px;
+}
+.ninja {
+  border: 1px solid #80808096;
+  box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.line {
+  text-decoration: line-through;
+}
+.decor {
+  font-style: italic;
+}
+.footer {
+  justify-content: center;
+  padding: 50px;
+  border-top: 2px solid black;
+}
+.h__footer {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  visibility: hidden;
+}
+.link {
+  color: blueviolet;
+  text-shadow: 2px 2px 5px rgba(226, 43, 156, 0.473);
+}
